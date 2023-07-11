@@ -8,4 +8,5 @@ tar -xf "shadowsocks-v${VERSION}.aarch64-unknown-linux-gnu.tar.xz"
 mv ssserver /usr/local/bin/
 rm -rf /tmp/shadowsocks
 
-nohup ssserver -s "0.0.0.0:${PORT}" -m "aes-256-gcm" -k "${PASSWORD}" &> /dev/null &
+mkdir /var/log/shadowsocks
+nohup ssserver -s "0.0.0.0:${PORT}" -m "aes-256-gcm" -k "${PASSWORD}" &> /var/log/shadowsocks/ssserver.log &

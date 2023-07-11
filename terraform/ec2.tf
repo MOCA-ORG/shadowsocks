@@ -69,6 +69,6 @@ resource "aws_route53_record" "shadowsocks" {
   name    = "shadowsocks.${data.aws_route53_zone.zone.name}"
   type    = "A"
   zone_id = data.aws_route53_zone.zone.zone_id
-  ttl     = 300
+  ttl     = 60
   records = [module.ec2_instance.public_ip]
 }

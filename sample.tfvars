@@ -5,6 +5,6 @@ vpc_id=""
 # Subnet ID for EC2.
 subnet_id=""
 # Allowed IP addresses for SSH.
-trusted_ips=""
+trusted_ips=[]
 # Name of the Route53 zone to create the DNS record in.
 route53_zone=""

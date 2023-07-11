@@ -1,1 +1,3 @@
 /terraform/production.tfbackend
+/terraform/production.tfvars
+/terraform/.terraform/
