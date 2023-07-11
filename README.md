@@ -1,5 +1,7 @@
 # Setting up a Shadowsocks server with Terraform
 
+[Qiita](https://qiita.com/haxidoi/items/53c415596236a182428d)
+
 # Deploy
 ```shell
 # copy and modify sample.tfbackend
